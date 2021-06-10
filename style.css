@@ -10,14 +10,14 @@ html, body {
 body {
     font-family: 'Raleway', sans-serif;
     color: white;
-    background: rgb(113,1,214);
-    background: linear-gradient(176deg, rgba(113,1,214,1) 0%, rgba(99,5,143,1) 100%);
+    background: rgb(214,1,179);
+    background: linear-gradient(176deg, rgba(214,1,179,1) 0%, rgba(99,5,143,1) 100%);
 }
 
 .avatar {
-    width: 80px;
+    width: 100px;
     border-radius: 50px;
-    border: 3px solid white;
+    border: 3px solid snow;
     box-shadow: 0 0 20px white;
 }
 
@@ -41,7 +41,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px 800px;
 }
 
 .socialMedia img {
@@ -52,7 +52,9 @@ h2 {
 }
 
 .linksList li {
-    margin: 10px 20px;
+    margin: 0 auto 20px;
+    width: 600px;
+    
 }
 
 .linksList li a{
@@ -62,7 +64,7 @@ h2 {
     border-radius: 4px;
     text-decoration: none;
     text-align: center;
-    color: rgb(113,1,214);
+    color: rgb(214,1,179);
     font-weight: bold;
     border: 3px solid white;
     box-shadow: 0 0 20px white;
@@ -72,4 +74,11 @@ h2 {
     color: grey;
     display: block;
     margin-top: 10px;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
 }
